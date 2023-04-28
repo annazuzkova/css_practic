@@ -45,6 +45,12 @@ body {
     display: inline-block;
     width: 420px;
 }
+.card:not(:first-child){
+    margin-left: -4px;
+}
+.card:nth-child(odd){
+    margin-right: 65px;
+}
 .card-category{
     font-family: 'Ubuntu';
     font-weight: 300;
